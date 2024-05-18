@@ -1,0 +1,40 @@
+/* === Font === */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* === Variables === */
+:root{
+	--roxo-escuro: #431844;
+	--roxo-claro: #85057E;
+  --cinza-claro: #E7E5E8;
+  --azul-claro: #B8D6D8;
+  --azul-escuro: #046A7A;
+  --cor-preta: #010103;
+}
+
+/* === Generic Styles === */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--roxo-claro);
+  color: var(--cinza-claro);
+}
+
+/* === Barra de Rolagem === */
+
+body::-webkit-scrollbar {
+  width: 1vw;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--cinza-claro);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--azul-escuro);
+  width: 10px;
+}
