@@ -1,0 +1,111 @@
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: transparent;
+	color: var(--roxo-claro);
+	z-index: 10;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+header.scrolled{
+	background-color: var(--cor-secundaria);
+}
+
+header .logo{
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .logo img{
+	width: 60px;
+}
+
+nav a{
+	margin: 0 1rem;
+	font-style: regular;
+	text-decoration: none;
+	transition: ease all .5s;
+}
+
+nav a:hover{
+	border-bottom: 1px solid var(--roxo-claro);
+}
+
+header .nav_btn{
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	/* color: var(--roxo-claro); */
+	display: none;
+	font-size: 1.3rem;
+}
+
+header div, nav {
+	display: flex;
+	align-items: center;
+}
+
+#botao-contato-header {
+	background-color: var(--roxo-claro);
+	color: var(--cor-branca);
+	padding: 1vh 2vw;
+	border-radius: 5px;
+}
+
+#botao-contato-header:hover {
+	opacity: 80%;
+	transition: ease-in-out 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+	header{
+		justify-content: space-between;
+	}
+
+	header .nav_btn{
+		display: block;
+	}
+
+	header nav{
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--cor-secundaria);
+		transition: 1s;
+		z-index: 1000;
+	}
+
+	header .responsive_nav{
+		transform: translateY(100vh);
+	}
+
+	nav .nav_close_btn{
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a{
+		font-size: 1.2rem;
+	}
+
+	header .logo img{
+		width: 40px;
+	}
+}
