@@ -28,14 +28,15 @@ body {
 /* === Barra de Rolagem === */
 
 body::-webkit-scrollbar {
-  width: 1vw;
+  width: 0.5vw;
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--cinza-claro);
+  background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
   background: var(--azul-escuro);
   width: 10px;
+  border-radius: 10px;
 }

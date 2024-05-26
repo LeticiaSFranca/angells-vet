@@ -1,0 +1,87 @@
+#inicio-home {
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#inicio-home h2 {
+    color: var(--roxo-claro);
+}
+
+#inicio-home p {
+    opacity: 70%;
+    margin-top: 2vh;
+}
+
+#inicio-home img {
+    width: 30vw;
+}
+
+#texto-inicio-home {
+    width: 40vw;
+}
+
+/* === Separação === */
+#integrantes {
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#integrantes h2 {
+    color: var(--azul-escuro);
+}
+
+#integrantes p {
+    opacity: 70%;
+    margin: 0 15vw;
+    margin-top: 2vh;
+}
+
+#texto-integrantes {
+    width: 100%;
+    text-align: center;
+}
+
+/* === Separação === */
+
+#todos-cards-integrantes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.cada-card-integrantes {
+    width: 20vw;
+    height: 60vh;
+    box-shadow: 2px 2px 10px var(--azul-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.cada-card-integrantes p {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
+
+.cada-card-integrantes a {
+    margin-top: 5vh;
+    background: linear-gradient(60deg, #fff);
+}
+
+.cada-card-integrantes img {
+    width: 17vw;
+}

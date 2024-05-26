@@ -1,6 +1,11 @@
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import React from 'react';
+import AnaSantos from '../../assets/img/Boneca-AnaSantos.png';
+import Leticia from '../../assets/img/Boneca-Leticia.png';
+import AnaBraga from '../../assets/img/Boneca-AnaBraga.png';
+
+import { FiInstagram } from "react-icons/fi";
+import ImagemPrincipal from '../../assets/img/imagem-principal.png';
 import './Home.style.css';
 
 export function Home() {
@@ -10,8 +15,8 @@ export function Home() {
 
     return (
         <>
-            <section>
-                <div>
+            <section id='inicio-home'>
+                <div id='texto-inicio-home'>
                     <h2>Bem-vindo(a) ao nosso espaço, AngellsVet!</h2>
                     <p>Somos um trio de estudantes de Medicina Veterinária, completamente apaixonadas
                     pelos animais e nos comprometemos em compartilhar nosso conhecimento e
@@ -26,7 +31,27 @@ export function Home() {
                     você e ajudá-lo(a) em sua jornada na Medicina Veterinária. Junte-se a nós e faça
                     parte dessa comunidade de aprendizado e crescimento!</p>
                 </div>
-                <div></div>
+                <div>
+                    <img src={ImagemPrincipal} alt="Imagem Principal" />
+                </div>
+            </section>
+
+            <section id='integrantes'>
+                <div id='texto-integrantes'>
+                    <h2>Conheça nossas futuras doutoras, e fundadoras da Angells Vet!</h2>
+                    <p>Nosso time é composto por <b>3 estudantes</b> de <b>Medicina Veterinária</b> dedicadas e
+                    curiosas: <b>Letícia França, Ana Clara Santos e Ana Clara Braga</b>. Nosso principal objetivo é fornecer conhecimento, dicas e orientações para
+                    estudantes da veterinária disponibilizando resumos das matérias aplicadas no
+                    curso!</p>
+                </div>
+
+                <div id='todos-cards-integrantes'>
+                    <div className='cada-card-integrantes'>
+                        <img src={AnaSantos} alt="AnaSantos" />
+                        <p><b>Área de Pretenção:</b> Clínica de Pequenos</p>
+                        <a href="https://" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
+                    </div>
+                </div>
             </section>
         </>
     );
