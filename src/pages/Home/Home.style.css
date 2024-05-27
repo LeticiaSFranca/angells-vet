@@ -61,7 +61,7 @@
 }
 
 .cada-card-integrantes {
-    width: 20vw;
+    width: 23vw;
     height: 60vh;
     box-shadow: 2px 2px 10px var(--azul-escuro);
     display: flex;
@@ -78,9 +78,15 @@
 }
 
 .cada-card-integrantes a {
-    margin-top: 5vh;
-    background: linear-gradient(60deg, #fff);
-}
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 2vh;
+    font-size: 30px;
+    color: var(--cor-branca);
+    border-radius: 30px;
+    background: linear-gradient(120deg, rgba(4,106,122,1) 10%, rgba(7,195,224,1) 100%);}
 
 .cada-card-integrantes img {
     width: 17vw;

@@ -51,6 +51,19 @@ export function Home() {
                         <p><b>Área de Pretenção:</b> Clínica de Pequenos</p>
                         <a href="https://" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
                     </div>
+
+                    <div className='cada-card-integrantes'>
+                        <img src={Leticia} alt="Leticia" />
+                        <p><b>Área de Pretenção:</b> Animais de Fazenda</p>
+                        <a href="https://www.instagram.com/leticia.s.franca/?hl=pt-br" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
+                        <a href="https://leticiafranca.com.br" target="_blank" rel="noopener noreferrer"></a>
+                    </div>
+
+                    <div className='cada-card-integrantes'>
+                        <img src={AnaBraga} alt="AnaBraga" />
+                        <p><b>Área de Pretenção:</b> Clínica de Pequenos</p>
+                        <a href="https://" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
+                    </div>
                 </div>
             </section>
         </>
