@@ -5,7 +5,6 @@ header{
 	height: 80px;
 	padding: 0 2rem;
 	background-color: var(--cor-branca);
-	color: var(--roxo-claro);
 	z-index: 10;
 	position: sticky;
 	top: 0;
@@ -43,6 +42,7 @@ header .nav_btn{
 	padding: 5px;
 	cursor: pointer;
 	background: var(--cor-branca);
+	color: transparent;
 	border: none;
 	outline: none;
 	display: none;
@@ -66,13 +66,22 @@ header div, nav {
 	transition: ease-in-out 0.5s;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1080px) {
 	header{
 		justify-content: space-between;
 	}
 
+	header a {
+		color: var(--cor-branca);
+	}
+
 	header .nav_btn{
 		display: block;
+	}
+
+	header .nav_btn{
+		background: var(--roxo-escuro);
+		color: var(--cor-branca);
 	}
 
 	header nav{
@@ -86,7 +95,7 @@ header div, nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--cor-secundaria);
+		background-color: var(--roxo-escuro);
 		transition: 1s;
 		z-index: 1000;
 	}

@@ -69,7 +69,7 @@ export function Home() {
                         </div>
                     </div>
 
-                    <div className='cada-card-integrantes'>
+                    <div className='cada-card-integrantes' id='card-proxima-linha'>
                         <img src={AnaBraga} alt="AnaBraga" />
                         <p><b>Área de Pretenção:</b> Clínica de Pequenos</p>
                         
@@ -105,7 +105,7 @@ export function Home() {
                             <a href="#" target="_blank" rel="noopener noreferrer">Registros</a>
                     </div>
 
-                    <div className='cada-card-areas'>
+                    <div className='cada-card-areas' id='card-proxima-linha'>
                         <img src={IlustracaoLojinha} alt="Lojinha" />
                         <a href="#" target="_blank" rel="noopener noreferrer">Lojinha</a>
                     </div>
