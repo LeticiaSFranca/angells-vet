@@ -4,6 +4,10 @@ import AnaSantos from '../../assets/img/Boneca-AnaSantos.png';
 import Leticia from '../../assets/img/Boneca-Leticia.png';
 import AnaBraga from '../../assets/img/Boneca-AnaBraga.png';
 
+import IlustracaoResumo from '../../assets/img/ilustracao-resumo.png';
+import IlustracaoRegistros from '../../assets/img/ilustracao-registros.png';
+import IlustracaoLojinha from '../../assets/img/ilustracao-lojinha.png';
+
 import { FiInstagram } from "react-icons/fi";
 import { BsGlobe2 } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -40,7 +44,7 @@ export function Home() {
 
             <section id='integrantes'>
                 <div id='texto-integrantes'>
-                    <h2>Conheça nossas futuras doutoras, e fundadoras da Angells Vet!</h2>
+                    <h2>Conheça nossas futuras doutoras, e fundadoras da Angells Vet 🩺💜!</h2>
                     <p>Nosso time é composto por <b>3 estudantes</b> de <b>Medicina Veterinária</b> dedicadas e
                     curiosas: <b>Letícia França, Ana Clara Santos e Ana Clara Braga</b>. Nosso principal objetivo é fornecer conhecimento, dicas e orientações para
                     estudantes da veterinária disponibilizando resumos das matérias aplicadas no
@@ -73,6 +77,37 @@ export function Home() {
                             <a href="https://www.instagram.com/anabrag4/?hl=pt-br" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
                             <a href="https://www.linkedin.com/in/ana-braga-1212a92a2/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <a href="https://www.instagram.com/angellsvet/?hl=pt-br" target="_blank" rel="noopener noreferrer" id='botao-siga-instagram'>
+                <div id="container-siga-instagram">
+                    <FiInstagram id='icone-siga-instagram' />
+                    <div id='texto-siga-instagram'><b>Siga a gente no Instagram!</b>
+                    Fique por dentro do mundo da veterinária!</div> 
+                </div>   
+            </a>
+
+            <section id='areas-site'>
+                <h2>Decida por onde começar!</h2>
+
+                <div id='todos-cards-areas'>
+                    <div className='cada-card-areas'>
+                        <img src={IlustracaoResumo} alt="Resumos" />
+                    
+                            <a href="#" target="_blank" rel="noopener noreferrer">Resumos</a>
+                    </div>
+
+                    <div className='cada-card-areas'>
+                        <img src={IlustracaoRegistros} alt="Registros" />
+                    
+                            <a href="#" target="_blank" rel="noopener noreferrer">Registros</a>
+                    </div>
+
+                    <div className='cada-card-areas'>
+                        <img src={IlustracaoLojinha} alt="Lojinha" />
+                        <a href="#" target="_blank" rel="noopener noreferrer">Lojinha</a>
                     </div>
                 </div>
             </section>
