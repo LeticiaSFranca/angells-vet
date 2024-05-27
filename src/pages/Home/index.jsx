@@ -5,6 +5,8 @@ import Leticia from '../../assets/img/Boneca-Leticia.png';
 import AnaBraga from '../../assets/img/Boneca-AnaBraga.png';
 
 import { FiInstagram } from "react-icons/fi";
+import { BsGlobe2 } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 import ImagemPrincipal from '../../assets/img/imagem-principal.png';
 import './Home.style.css';
 
@@ -49,20 +51,28 @@ export function Home() {
                     <div className='cada-card-integrantes'>
                         <img src={AnaSantos} alt="AnaSantos" />
                         <p><b>Área de Pretenção:</b> Clínica de Pequenos</p>
-                        <a href="https://" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
+                        <a href="https://www.instagram.com/anasanttoss__/?hl=pt-br" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
                     </div>
 
                     <div className='cada-card-integrantes'>
                         <img src={Leticia} alt="Leticia" />
                         <p><b>Área de Pretenção:</b> Animais de Fazenda</p>
-                        <a href="https://www.instagram.com/leticia.s.franca/?hl=pt-br" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
-                        <a href="https://leticiafranca.com.br" target="_blank" rel="noopener noreferrer"></a>
+                        
+                        <div className='div-links-integrantes'>
+                            <a href="https://www.instagram.com/leticia.s.franca/?hl=pt-br" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
+                            <a href="https://leticiafranca.com.br" target="_blank" rel="noopener noreferrer"><BsGlobe2 /></a>
+                            <a href="https://www.linkedin.com/in/leticiasfranca/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+                        </div>
                     </div>
 
                     <div className='cada-card-integrantes'>
                         <img src={AnaBraga} alt="AnaBraga" />
                         <p><b>Área de Pretenção:</b> Clínica de Pequenos</p>
-                        <a href="https://" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
+                        
+                        <div className="div-links-integrantes">
+                            <a href="https://www.instagram.com/anabrag4/?hl=pt-br" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
+                            <a href="https://www.linkedin.com/in/ana-braga-1212a92a2/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+                        </div>
                     </div>
                 </div>
             </section>
