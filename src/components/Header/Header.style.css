@@ -67,24 +67,24 @@ header div, nav {
 }
 
 @media only screen and (max-width: 1080px) {
-	header{
+	header {
 		justify-content: space-between;
 	}
 
 	header a {
-		color: var(--cor-branca);
+		color: var(--roxo-claro);
 	}
 
-	header .nav_btn{
+	header .nav_btn {
 		display: block;
 	}
 
-	header .nav_btn{
-		background: var(--roxo-escuro);
-		color: var(--cor-branca);
+	header .nav_btn {
+		background: var(--cor-branca);
+		color: var(--roxo-claro);
 	}
 
-	header nav{
+	header nav {
 		position: fixed;
 		top: -100vh;
 		left: 0;
@@ -95,26 +95,26 @@ header div, nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--roxo-escuro);
+		background-color: var(--cor-branca);
 		transition: 1s;
 		z-index: 1000;
 	}
 
-	header .responsive_nav{
+	header .responsive_nav {
 		transform: translateY(100vh);
 	}
 
-	nav .nav_close_btn{
+	nav .nav_close_btn {
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
 	}
 
-	nav a{
+	nav a {
 		font-size: 1.2rem;
 	}
 
-	header .logo img{
-		width: 40px;
+	header .logo img {
+		width: 70px;
 	}
 }
