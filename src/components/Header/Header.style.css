@@ -58,6 +58,7 @@ header div, nav {
 	background-color: var(--roxo-claro);
 	color: var(--cor-branca);
 	padding: 1vh 2vw;
+	border: 0;
 	border-radius: 5px;
 }
 
