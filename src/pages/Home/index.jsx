@@ -4,6 +4,10 @@ import ImagemPrincipal from '../../assets/img/Home/Capa-Principal.png';
 import Filhotes1 from '../../assets/img/Home/Filhotinhos-1.png';
 import Filhotes2 from '../../assets/img/Home/Filhotinhos-2.png';
 import Filhotes3 from '../../assets/img/Home/Filhotinhos-3.png';
+import AnaSantos from '../../assets/img/Home/Boneca-AnaSantos.png';
+import Leticia from '../../assets/img/Home/Boneca-Leticia.png';
+import AnaBraga from '../../assets/img/Home/Boneca-AnaBraga.png';
+import { BsInstagram } from "react-icons/bs";
 import './Home.style.css';
 
 export function Home() {
@@ -47,6 +51,30 @@ export function Home() {
                     parte dessa comunidade de aprendizado e crescimento💡💖!</p>
 
                     <img src={Filhotes3} alt="Filhotes-3" />
+                </div>
+            </section>
+
+            <section id='section-socias'>
+                <h2>Conheça nossas futuras doutoras,<br />e fundadoras da Angells Vet!</h2>
+
+                <div id='todos-os-cards'>
+                    <div class='cada-card' id='cada-card-amarelo'>
+                        <img src={AnaSantos} alt="AnaSantos" />
+                        <p><b>Área de Pretenção</b>: Clínica de Pequenos</p>
+                        <a href="" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+                    </div>
+
+                    <div class='cada-card' id='cada-card-rosa'>
+                        <img src={Leticia} alt="Leticia" />
+                        <p><b>Área de Pretenção:</b> Animais de Fazenda</p>
+                        <a href="" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+                    </div>
+
+                    <div class='cada-card' id='cada-card-amarelo'>
+                        <img src={AnaBraga} alt="AnaBraga" />
+                        <p><b>Área de Pretenção</b>: Clínica de Pequenos</p>
+                        <a href="" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+                    </div>
                 </div>
             </section>
         </>
