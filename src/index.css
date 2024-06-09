@@ -3,12 +3,14 @@
 
 /* === Variables === */
 :root{
-	--roxo-escuro: #431844;
-	--roxo-claro: #85057E;
-  --cinza-claro: #E7E5E8;
-  --azul-claro: #B8D6D8;
-  --azul-escuro: #046A7A;
-  --cor-preta: #010103;
+  --rosa-1: #E60965;
+  --rosa-2: #FF4A95;
+  --rosa-3: #ED5783;
+  --rosa-4: #F8839F;
+  --rosa-5: #FBA1B7;
+  --amarelo-1: #FFB147;
+	--amarelo-2: #FFD8A3;
+  --cor-preta: #000000;
   --cor-branca: #FFFFFF;
 }
 

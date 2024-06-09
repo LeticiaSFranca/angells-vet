@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Header.style.css';
-import logo from '../../assets/logo-angellsvet.png';
 import { Link } from 'react-router-dom';
+import './Header.style.css';
+import logo from '../../assets/logo.png';
 import { FaTimes } from 'react-icons/fa';
 import { GrAppsRounded } from 'react-icons/gr';
 

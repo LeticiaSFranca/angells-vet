@@ -4,7 +4,7 @@ header{
 	justify-content: space-evenly;
 	height: 80px;
 	padding: 0 2rem;
-	background-color: var(--cor-branca);
+	background: transparent;
 	z-index: 10;
 	position: sticky;
 	top: 0;
@@ -32,10 +32,11 @@ nav a{
 	font-style: regular;
 	text-decoration: none;
 	transition: ease all .5s;
+	color: var(--cor-branca);
 }
 
 nav a:hover{
-	border-bottom: 1px solid var(--roxo-claro);
+	border-bottom: 1px solid var(--cor-branca);
 }
 
 header .nav_btn{
@@ -55,8 +56,9 @@ header div, nav {
 }
 
 #botao-contato-header {
-	background-color: var(--roxo-claro);
-	color: var(--cor-branca);
+	background-color: var(--cor-branca);
+	color: var(--rosa-5);
+	font-weight: 600;
 	padding: 1vh 2vw;
 	border: 0;
 	border-radius: 5px;
@@ -73,7 +75,7 @@ header div, nav {
 	}
 
 	header a {
-		color: var(--roxo-claro);
+		color: var(--cor-branca);
 	}
 
 	header .nav_btn {
@@ -81,8 +83,8 @@ header div, nav {
 	}
 
 	header .nav_btn {
-		background: var(--cor-branca);
-		color: var(--roxo-claro);
+		background: transparent;
+		color: var(--cor-branca);
 	}
 
 	header nav {
@@ -96,7 +98,7 @@ header div, nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--cor-branca);
+		background-color: var(--rosa-5);
 		transition: 1s;
 		z-index: 1000;
 	}
