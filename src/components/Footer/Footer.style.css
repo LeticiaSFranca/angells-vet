@@ -6,7 +6,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background: linear-gradient(120deg, var(--roxo-escuro) 10%, var(--roxo-claro) 100%);
+    background: linear-gradient(10deg, var(--rosa-3) 10%, var(--rosa-5) 100%);
     padding-top: 4vh;
     padding-bottom: 4vh;
     color: var(--cor-branca);

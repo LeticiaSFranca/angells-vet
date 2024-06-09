@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
+    margin-top: 6vh;
 }
 
 .link-botoes-inicio {
@@ -24,17 +25,45 @@
     align-items: center;
     justify-content: space-evenly;
     border: 0;
-    background: var(--cor-secundaria);
+    background: var(--amarelo-1);
     color: var(--cor-branca);
     border-radius: 10px;
     font-size: 20px;
     font-weight: bolder;
     text-decoration: none;
-    padding: 1vw 4vw;
+    padding: 1vw 0;
+    width: 25vw;
 }
 
 .link-botoes-inicio:hover {
     opacity: 80%;
     transition: ease-in-out 0.5s;
     cursor: pointer;
+}
+
+/* === Separação === */
+#section-filhotes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+}
+
+.div-filhotes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.div-filhotes p {
+    width: 35vw;
+    color: var(--cor-cinza);
+}
+
+.div-filhotes img {
+    width: 30vw;
 }
