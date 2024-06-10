@@ -1,0 +1,30 @@
+#page-404 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botao-voltar-ao-inicio {
+    color: var(--cor-branca);
+    background: var(--amarelo-1);
+    padding: 2vh 4vw;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6vh;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+#botao-voltar-ao-inicio:hover {
+    background: var(--amarelo-2);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}

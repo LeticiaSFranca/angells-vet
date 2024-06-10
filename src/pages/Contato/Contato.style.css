@@ -1,15 +1,3 @@
-#primeira-apresentacao {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#imagem-homepage {
-    width: 100%;
-    margin-top: -20vh;
-}
-
 #page-contato {
     width: 100%;
     display: flex;

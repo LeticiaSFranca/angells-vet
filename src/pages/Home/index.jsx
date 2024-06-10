@@ -7,6 +7,9 @@ import Filhotes3 from '../../assets/img/Home/Filhotinhos-3.png';
 import AnaSantos from '../../assets/img/Home/Boneca-AnaSantos.png';
 import Leticia from '../../assets/img/Home/Boneca-Leticia.png';
 import AnaBraga from '../../assets/img/Home/Boneca-AnaBraga.png';
+import Publicacao1 from '../../assets/img/Home/publicacao-1.png';
+import Publicacao2 from '../../assets/img/Home/publicacao-2.png';
+import Publicacao3 from '../../assets/img/Home/publicacao-3.png';
 import { BsInstagram } from "react-icons/bs";
 import { BsGlobe } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -90,6 +93,29 @@ export function Home() {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <a href='https://www.instagram.com/angellsvet/' id='botao-instagram'>
+                <BsInstagram id='icone-botao-instagram' />
+
+                <div>
+                    <h4><b>Siga a gente no Instagram!</b></h4>
+                    <p>Fique por dentro do mundo da veterinária!</p>
+                </div>
+            </a>
+
+            <section id='publicacoes-instagram'>
+                <a href="https://www.instagram.com/angellsvet/" target="_blank" rel="noopener noreferrer">
+                    <img src={Publicacao1} alt="Publicação-1" />
+                </a>
+
+                <a href="https://www.instagram.com/angellsvet/" target="_blank" rel="noopener noreferrer">
+                    <img src={Publicacao2} alt="Publicação-2" />
+                </a>
+
+                <a href="https://www.instagram.com/angellsvet/" target="_blank" rel="noopener noreferrer">
+                    <img src={Publicacao3} alt="Publicação-3" />
+                </a>
             </section>
         </>
     );

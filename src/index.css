@@ -43,3 +43,16 @@ body::-webkit-scrollbar-thumb {
   width: 10px;
   border-radius: 10px;
 }
+
+/* === Separação === */
+#primeira-apresentacao {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imagem-homepage {
+  width: 100%;
+  margin-top: -20vh;
+}
