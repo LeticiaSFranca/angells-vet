@@ -1,5 +1,6 @@
 import './Contato.style.css';
 import React from 'react';
+import CapaContato from '../../assets/img/Contato/Capa-Contato.png';
 import { FaPaperPlane } from "react-icons/fa6";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
@@ -16,8 +17,8 @@ export function Contato() {
     return (
         <>
             <section id='page-contato'>
-                <div>
-                    {/* <img src={Cacatua} alt="Cacatua" id='img-cacatua' /> */}
+                <div id='primeira-apresentacao'>
+                    <img src={CapaContato} alt="CapaContato" id='imagem-homepage' />
                 </div>
 
                 <div className="formularioContato">

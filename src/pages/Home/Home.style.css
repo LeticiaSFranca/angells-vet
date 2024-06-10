@@ -112,9 +112,48 @@
     width: 18vw;
 }
 
-.cada-card a {
+.cada-card a:hover {
+    cursor: pointer;
+}
+
+.link-integrantes-rosa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     margin: 3vh 0;
-    font-size: 20px;
+}
+
+.link-integrantes-rosa a {
+    color: var(--rosa-1);
+    font-size: 25px;
+}
+
+.link-integrantes-rosa a:hover{
+    opacity: 50%;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.link-integrantes-amarelo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 3vh 0;
+}
+
+.link-integrantes-amarelo a {
+    color: var(--amarelo-1);
+    font-size: 25px;
+}
+
+.link-integrantes-amarelo a:hover{
+    opacity: 50%;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
 }
 
 #cada-card-amarelo {
