@@ -57,6 +57,12 @@ body::-webkit-scrollbar-thumb {
   margin-top: -20vh;
 }
 
+@media (max-width: 1080px){
+  #imagem-homepage {
+    height: 35vh;
+  }
+}
+
 /* === Separação === */
 #imagem-construcao {
   margin-top: 10vh;

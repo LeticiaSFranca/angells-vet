@@ -1,4 +1,5 @@
 import './Contato.style.css';
+import '../../index.css';
 import React from 'react';
 import CapaContato from '../../assets/img/Contato/Capa-Contato.png';
 import { FaPaperPlane } from "react-icons/fa6";
@@ -16,13 +17,11 @@ export function Contato() {
 
     return (
         <>
-            <section id='page-contato'>
                 <div id='primeira-apresentacao'>
                     <img src={CapaContato} alt="CapaContato" id='imagem-homepage' />
                 </div>
 
                 <div className="formularioContato">
-                    <h3>Fale Conosco!</h3>
                     <form action="https://formsubmit.co/leticiasilvafranca17@gmail.com" method="post" encType="multipart/form-data">
                         <label>
                             <span><i className="icon icon-user-1"></i><IoPersonSharp /> Nome</span>
@@ -56,7 +55,6 @@ export function Contato() {
                     </form>
                     <br />
                 </div>
-            </section>
         </>
     );
 }
