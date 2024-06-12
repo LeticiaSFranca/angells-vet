@@ -29,6 +29,17 @@
     cursor: pointer;
 }
 
+@media (max-width: 1080px){
+    #botoes-home {
+        margin-top: 3vh;
+    }
+
+    .link-botoes-inicio {
+        font-size: 18px;
+        width: 30vw;
+    }
+}
+
 /* === Separação === */
 #section-filhotes {
     width: 100%;
@@ -56,6 +67,52 @@
     width: 30vw;
 }
 
+.div-filhotes-reverse p {
+    width: 35vw;
+    color: var(--cor-cinza);
+}
+
+.div-filhotes-reverse img {
+    width: 30vw;
+}
+
+@media (max-width: 1080px){
+    .div-filhotes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 7vh 0;
+    }
+
+    .div-filhotes-reverse {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+    }
+
+    .div-filhotes p {
+        width: 90%;
+        margin: 2vh 0;
+    }
+    
+    .div-filhotes img {
+        width: 70vw;
+    }
+    
+    .div-filhotes-reverse p {
+        width: 90%;
+        margin: 2vh 0;
+    }
+    
+    .div-filhotes-reverse img {
+        width: 70vw;
+    }
+}
+
 /* === Separação === */
 #section-socias {
     width: 100%;
@@ -78,6 +135,7 @@
     justify-content: space-evenly;
     flex-direction: row;
     margin-top: 7vh;
+    flex-wrap: wrap;
 }
 
 #todos-os-cards p {
@@ -198,4 +256,55 @@
     box-shadow: 2px 2px 10px var(--rosa-3);
     cursor: pointer;
     transition: ease-in-out 0.5s;
+}
+
+/* === Responsividade === */
+@media (max-width: 1080px){
+    #section-socias h2 {
+        margin-top: 4vh;
+        margin-bottom: -4vh;
+        font-size: 20px;
+    }
+
+    #todos-os-cards p {
+        font-size: 12px;
+        padding: 1vh 4vw;
+    }
+
+    .cada-card {
+        width: 45vw;
+        height: 30vh;
+        border-radius: 20px;
+        margin-top: 3vh;
+    }
+
+    #cada-card-amarelo img {
+        width: 35vw;
+    }
+
+    #cada-card-rosa img {
+        width: 35vw;
+    }
+
+    .link-integrantes-amarelo a {
+        margin: -3vh 0;
+    }
+
+    .link-integrantes-rosa a {
+        margin: -3vh 0;
+    }
+
+    #botao-instagram {
+        width: 90%;
+        font-size: 12px;
+        margin-bottom: -3vh;
+    }
+
+    #publicacoes-instagram a img{
+        width: 50vw;
+    }
+
+    #publicacoes-instagram a {
+        margin-top: 3vh;
+    }
 }

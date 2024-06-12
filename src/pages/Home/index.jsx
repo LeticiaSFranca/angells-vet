@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import ImagemPrincipal from '../../assets/img/Home/Capa-Principal.png';
 import Filhotes1 from '../../assets/img/Home/Filhotinhos-1.png';
@@ -27,13 +28,13 @@ export function Home() {
             </section>
 
             <section id='botoes-home'>
-                <a href="http://" target="_blank" rel="noopener noreferrer" className='link-botoes-inicio'>Resumos</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer" className='link-botoes-inicio'>Lojinha</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer" className='link-botoes-inicio'>Registros</a>
+                <Link to='/resumos' className='link-botoes-inicio'>Resumos</Link>
+                <Link to='/lojinha' className='link-botoes-inicio'>Lojinha</Link>
+                <Link to='/registros' className='link-botoes-inicio'>Registros</Link>
             </section>
 
             <section id='section-filhotes'>
-                <div className='div-filhotes'>
+                <div className='div-filhotes-reverse'>
                     <p>Somos um trio de estudantes de Medicina Veterinária, completamente apaixonadas
                     pelos animais🥰 e nos comprometemos em compartilhar nosso conhecimento e
                     experiência com o intuito de sanar as dúvidas de estudantes da área💡, assim como
@@ -50,7 +51,7 @@ export function Home() {
                     artigos, vídeo aulas e resumos💡❤.</p>
                 </div>
 
-                <div className='div-filhotes'>
+                <div className='div-filhotes-reverse'>
                     <p>Estamos animadas para compartilhar nossos conhecimentos e experiências com
                     você🤩❤ e ajudá-lo(a) em sua jornada na Medicina Veterinária🩺💚. Junte-se a nós e faça
                     parte dessa comunidade de aprendizado e crescimento💡💖!</p>

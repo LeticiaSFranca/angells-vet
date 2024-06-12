@@ -59,7 +59,8 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 1080px){
   #imagem-homepage {
-    height: 35vh;
+    margin-top: -13vh;
+    /* height: 35vh; */
   }
 }
 
