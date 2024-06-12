@@ -3,12 +3,16 @@
 
 /* === Variables === */
 :root{
-	--roxo-escuro: #431844;
-	--roxo-claro: #85057E;
-  --cinza-claro: #E7E5E8;
-  --azul-claro: #B8D6D8;
-  --azul-escuro: #046A7A;
-  --cor-preta: #010103;
+  --rosa-1: #E60965;
+  --rosa-2: #FF4A95;
+  --rosa-3: #ED5783;
+  --rosa-4: #F8839F;
+  --rosa-5: #FBA1B7;
+  --amarelo-1: #FFB147;
+	--amarelo-2: #FFD8A3;
+  --cor-preta: #000000;
+  --cor-cinza: #808080;
+  --cor-branca: #FFFFFF;
 }
 
 /* === Generic Styles === */
@@ -20,21 +24,55 @@
 }
 
 body {
-  background-color: var(--roxo-claro);
-  color: var(--cinza-claro);
+  background-color: var(--cor-branca);
+  color: var(--cor-preta);
 }
 
 /* === Barra de Rolagem === */
 
 body::-webkit-scrollbar {
-  width: 1vw;
+  width: 0.5vw;
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--cinza-claro);
+  background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--azul-escuro);
+  background: var(--amarelo-1);
   width: 10px;
+  border-radius: 10px;
+}
+
+/* === Separação === */
+#primeira-apresentacao {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imagem-homepage {
+  width: 100%;
+  margin-top: -20vh;
+}
+
+@media (max-width: 1080px){
+  #imagem-homepage {
+    margin-top: -13vh;
+    /* height: 35vh; */
+  }
+}
+
+/* === Separação === */
+#imagem-construcao {
+  margin-top: 10vh;
+  width: 70%;
+}
+
+@media (max-width: 1080px){
+  #imagem-construcao {
+    margin-top: 5vh;
+    width: 100%;
+  }
 }
