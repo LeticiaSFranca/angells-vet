@@ -67,6 +67,14 @@
     width: 30vw;
 }
 
+.div-filhotes-reverse {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
 .div-filhotes-reverse p {
     width: 35vw;
     color: var(--cor-cinza);
