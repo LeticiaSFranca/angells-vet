@@ -37,9 +37,9 @@ export function Header() {
             </Link>
             <nav ref={navRef}>
                 <Link to="/" onClick={showNavbar}>Home</Link>
-                <Link to="/" onClick={showNavbar}>Resumos</Link>
-                <Link to="/" onClick={showNavbar}>Registros</Link>
-                <Link to="/" onClick={showNavbar}>Comprar</Link>
+                <Link to="/resumos" onClick={showNavbar}>Resumos</Link>
+                <Link to="/registros" onClick={showNavbar}>Registros</Link>
+                <Link to="/lojinha" onClick={showNavbar}>Comprar</Link>
                 <Link to="/contato" onClick={showNavbar} id='botao-contato-header'>Entrar em Contato</Link>
                 <button
                     className="nav_btn nav_close_btn"
