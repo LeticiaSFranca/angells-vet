@@ -26,6 +26,7 @@
 body {
   background-color: var(--cor-branca);
   color: var(--cor-preta);
+  min-height: 100vh;
 }
 
 /* === Barra de Rolagem === */
