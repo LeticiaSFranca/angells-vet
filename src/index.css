@@ -69,3 +69,10 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10vh;
   width: 70%;
 }
+
+@media (max-width: 1080px){
+  #imagem-construcao {
+    margin-top: 5vh;
+    width: 100%;
+  }
+}
