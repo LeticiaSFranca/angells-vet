@@ -22,7 +22,7 @@ export function Contato() {
                 </div>
 
                 <div className="formularioContato">
-                    <form action="https://formsubmit.co/leticiasilvafranca17@gmail.com" method="post" encType="multipart/form-data">
+                    <form action="https://formsubmit.co/contatoangellsvet@gmail.com" method="post" encType="multipart/form-data">
                         <label>
                             <span><i className="icon icon-user-1"></i><IoPersonSharp /> Nome</span>
                             <input type="text" name="nome" required placeholder="Seu nome" />
